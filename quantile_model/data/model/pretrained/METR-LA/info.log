@@ -1,0 +1,31 @@
+2024-07-07 16:42:20,878 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-07-07 16:42:37,887 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-07-07 16:43:30,792 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-07-07 16:43:43,978 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-24 18:49:57,770 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-24 18:50:04,750 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-24 18:51:30,410 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-24 18:51:36,958 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-24 18:51:40,182 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 35
+2024-09-24 19:31:19,011 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-24 19:31:25,648 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-24 19:31:29,058 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 35
+2024-09-24 19:39:16,507 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-24 19:39:22,738 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-24 19:39:25,863 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 35
+2024-09-24 21:47:48,872 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-24 21:47:55,811 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-24 21:47:59,167 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 35
+2024-09-26 11:38:31,892 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-26 11:38:38,129 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-26 11:49:38,210 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-26 11:49:44,615 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-29 14:56:23,766 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-29 14:56:31,001 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-29 14:56:34,297 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 35
+2024-09-29 14:57:39,031 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-29 14:57:45,555 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-29 14:57:48,711 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 35
+2024-09-29 14:59:08,097 - model.pytorch.dcrnn_supervisor - INFO - Log directory: quantile_model/data/model/pretrained/METR-LA
+2024-09-29 14:59:14,356 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2024-09-29 14:59:17,649 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 35
