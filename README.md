@@ -1,5 +1,7 @@
 torch
+
 scipy>=0.19.0
+
 numpy>=1.12.1
 pandas>=0.19.2
 pyyaml== 6.0.1
