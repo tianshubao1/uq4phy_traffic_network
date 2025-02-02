@@ -6,7 +6,7 @@ pyyaml==5.3.0 \
 statsmodels \
 tensorflow>=1.3.0 \
 tables \
-future \
+future 
 
 python dcrnn_edl_model_MSE_60/dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml
 
