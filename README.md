@@ -1,3 +1,5 @@
+requirements:
+
 torch \
 scipy>=0.19.0 \
 numpy>=1.12.1 \
