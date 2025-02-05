@@ -1,4 +1,4 @@
-# **ICCPS 25 paper: Uncertainty Quantification for Physics-Informed Traffic Graph Networks**
+## **ICCPS 25 paper: Uncertainty Quantification for Physics-Informed Traffic Graph Networks**
 
 requirements:\
 torch \
