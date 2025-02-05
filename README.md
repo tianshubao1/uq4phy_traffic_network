@@ -26,7 +26,7 @@ python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml  #Table
 ### dataset: 
 https://drive.google.com/drive/folders/1s1NaJ2DNgQWQr-p7i0586fjJsGidrvEU?usp=drive_link
 
-### Zenodo: \
+### Zenodo: 
 https://zenodo.org/records/14783003 \
 DOI: 10.5281/zenodo.14783003
 
