@@ -1,4 +1,6 @@
 ## **ICCPS 25 paper: Uncertainty Quantification for Physics-Informed Traffic Graph Networks**
+Tianshu Bao, Xiaoou Liu, Meiyi Ma, Taylor T Johnson, Hua Wei
+
 
 ### Requirements:
 torch \
