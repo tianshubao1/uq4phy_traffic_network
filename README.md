@@ -1,3 +1,5 @@
+ICCPS 25 paper: Uncertainty Quantification for Physics-Informed Traffic Graph Networks
+
 requirements:
 
 torch \
@@ -16,3 +18,5 @@ python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml
 
 dataset: \
 https://drive.google.com/drive/folders/1s1NaJ2DNgQWQr-p7i0586fjJsGidrvEU?usp=drive_link
+
+
