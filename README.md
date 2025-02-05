@@ -36,8 +36,14 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 After the artifact has finished running, all results are saved to results/artifact. Artifacts and corresponding paper labels are listed below:
 | Artifact | Result Location | Description|
 | -------- | -------- | -------- |
-| **Figure 3:**   | `results/figure_3.txt` | BODMAS certified robustness accuracy + avg. time results.|
-| **Figure 4:**   | `results/figure_4.txt` | MALIMG certified robustness accuracy + avg. time results.|
+| **Figure 3:**   | `results/figure_3.txt` | Ablation study for MAEMIS-based methods in PEMSD8 datasets.|
+| **Figure 4:**   | `results/figure_4.txt` | Ablation study for Quantile methods in PEMSD8 datasets.|
+| **Figure 5:**   | `results/figure_5.txt` | GPDE+Quantile+Phy model error distribution with various 𝜆 values at Location 5 for 48 hours.|
+| **Figure 6:**   | `results/figure_6.txt` | GPDE+MAEMIS+Phy Error Distribution with various 𝜆 values at Location 107 for 48 hours.|
+| **Figure 7:**   | `results/figure_7.txt` | The test loss for model convergence of quantile-based method.|
+| **Figure 8:**   | `results/figure_8.txt` | The predictions of three Quantile-based models.|
+| **Figure 9:**   | `results/figure_9.txt` | The traffic speed predictions of three MAEMIS-based model.|
+| **Figure 10:**  | `results/figure_10.txt` | The predictions of three MAEMIS-based models.|
 
 ### Dataset: 
 https://drive.google.com/drive/folders/1s1NaJ2DNgQWQr-p7i0586fjJsGidrvEU?usp=drive_link
