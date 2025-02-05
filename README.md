@@ -33,7 +33,7 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 ```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    #by running this command every time, you will generate each row of Table 1, 2
 
 ### Results for plots: ###
-After the artifact has finished running, all results are saved to results/artifact. Artifacts and corresponding paper labels are listed below:
+The instructions for generating the figures are listed below:
 | Artifact | Result Location | Description|
 | -------- | -------- | -------- |
 | **Figure 3:**    | `results/figure_3.txt` | Ablation study for MAEMIS-based methods in PEMSD8 datasets.|
