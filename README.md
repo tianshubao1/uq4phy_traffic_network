@@ -13,8 +13,10 @@ tensorflow>=1.3.0 \
 tables \
 future 
 
-### Ways to reproduce the results in the paper: 
-
+### Ways to reproduce the results: 
+- install the package locally
+- docker
+Instructions for docker user:
 - Activate Docker on your local machine. 
 - Run the command: ``` docker image pull tianshubao/uqtraffic:iccps ``` 
 - Run the command: ``` docker run -it tianshubao/uqtraffic:iccps ``` to start the container.  
