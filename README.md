@@ -40,5 +40,5 @@ https://zenodo.org/records/14783003 \
 DOI: 10.5281/zenodo.14783003
 
 ### Figshare datasets:
-https://figshare.com/articles/dataset/METR-LA/28347830
+https://figshare.com/articles/dataset/METR-LA/28347830 \
 https://figshare.com/articles/dataset/PEMSD8/28347662
