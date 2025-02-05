@@ -30,7 +30,14 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 
 ### Command: 
 ```cd ANY_UQ_MODEL```            # you can replace ANY_UQ_MODEL by any folder in the repo,  \
-```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    #by running this command, you will generate each row of Table 1, 2
+```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    #by running this command every time, you will generate each row of Table 1, 2
+
+### Results for plots: ###
+After the artifact has finished running, all results are saved to results/artifact. Artifacts and corresponding paper labels are listed below:
+| Artifact | Result Location | Description|
+| -------- | -------- | -------- |
+| **Table 5:**   | `results/artifacts/bodmas/table_5.txt` | BODMAS certified robustness accuracy + avg. time results.|
+| **Table 6:**   | `results/artifacts/malimg/table_6.txt` | MALIMG certified robustness accuracy + avg. time results.|
 
 ### Dataset: 
 https://drive.google.com/drive/folders/1s1NaJ2DNgQWQr-p7i0586fjJsGidrvEU?usp=drive_link
