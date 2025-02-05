@@ -23,8 +23,8 @@ The docker image contains 4 models with datasets. We didn't provide all the mode
 
 
 ### Command: 
-cd ANY_UQ_MODEL            # you can replace ANY_UQ_MODEL by any folder in the repo,  \
-python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml  #Table 1
+```cd ANY_UQ_MODEL```            # you can replace ANY_UQ_MODEL by any folder in the repo,  \
+```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    #Table 1
 
 ### Dataset: 
 https://drive.google.com/drive/folders/1s1NaJ2DNgQWQr-p7i0586fjJsGidrvEU?usp=drive_link
