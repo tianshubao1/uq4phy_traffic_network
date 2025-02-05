@@ -11,8 +11,8 @@ pyyaml==5.3.0 \
 statsmodels \
 tensorflow>=1.3.0 \
 tables \
-future 
-jupyter
+future \
+jupyter \
 matplotlib
 
 
