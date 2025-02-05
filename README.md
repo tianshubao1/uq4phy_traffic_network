@@ -13,6 +13,9 @@ tensorflow>=1.3.0 \
 tables \
 future 
 
+### System Requirements: 
+The host platform we used to prepare and test the docker image is a Dell Precision 5680 with Windows 11 Pro 64-bit OS, i7-13800H CPU, and NVIDIA RTX 3500 Ada GPU.
+
 ### Ways to reproduce the results: 
 - install the package locally
 - docker
