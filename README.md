@@ -1,7 +1,6 @@
-ICCPS 25 paper: Uncertainty Quantification for Physics-Informed Traffic Graph Networks
+**ICCPS 25 paper: Uncertainty Quantification for Physics-Informed Traffic Graph Networks**
 
-requirements:
-
+requirements:\
 torch \
 scipy>=0.19.0 \
 numpy>=1.12.1 \
