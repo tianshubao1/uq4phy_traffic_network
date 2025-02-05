@@ -12,6 +12,8 @@ statsmodels \
 tensorflow>=1.3.0 \
 tables \
 future 
+jupyter
+matplotlib
 
 
 ### Ways to reproduce the results: 
