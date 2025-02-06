@@ -34,7 +34,7 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 ```cd ANY_UQ_MODEL```            # you can replace ANY_UQ_MODEL by any folder in the repo,  \
 ```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    #by running this command every time, you will generate each row of Table 1, 2
 
-### Results for plots: ###
+### Generating Plots: ###
 The instructions for generating the figures are listed below: \
 ```cd plot``` \
 We use jupyter notebook which will open a HTML page, please use Chrome or Web Explorer to open it.
