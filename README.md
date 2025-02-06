@@ -35,8 +35,8 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 ```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    #by running this command every time, you will generate each row of Table 1, 2
 
 ### Results for plots: ###
-The instructions for generating the figures are listed below:
-```cd plot```
+The instructions for generating the figures are listed below: \
+```cd plot``` \
 We use jupyter notebook which will open a HTML page, please use Chrome or web explorer to open it.
 | Artifact | Result Location | Description|
 | -------- | -------- | -------- |
