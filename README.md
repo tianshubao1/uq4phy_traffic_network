@@ -37,13 +37,12 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 ### Results for plots: ###
 The instructions for generating the figures are listed below: \
 ```cd plot``` \
-We use jupyter notebook which will open a HTML page, please use Chrome or web explorer to open it.
+We use jupyter notebook which will open a HTML page, please use Chrome or Web Explorer to open it.
 | Artifact | Result Location | Description|
 | -------- | -------- | -------- |
 | **Figure 3:**    | `jupyter notebook maemis_model_seperate.ipynb` | Ablation study for MAEMIS-based methods in PEMSD8 datasets.|
-| **Figure 4:**    | `results/figure_4.txt` | Ablation study for Quantile methods in PEMSD8 datasets.|
-| **Figure 5:**    | `results/figure_5.txt` | GPDE+Quantile+Phy model error distribution with various 𝜆 values at Location 5 for 48 hours.|
-| **Figure 6:**    | `results/figure_6.txt` | GPDE+MAEMIS+Phy Error Distribution with various 𝜆 values at Location 107 for 48 hours.|
+| **Figure 4:**    | `jupyter notebook quantile_model_seperate_PEMSD8.ipynb` | Ablation study for Quantile methods in PEMSD8 datasets.|
+| **Figure 5, 6:**   | `jupyter notebook plot_PEMSD8_regularization.ipynb` | GPDE+Quantile+Phy, GPDE+MAEMIS+Phy model error distribution with various 𝜆 values.|
 | **Figure 7:**    | `results/figure_7.txt` | The test loss for model convergence of quantile-based method.|
 | **Figure 8:**    | `results/figure_8.txt` | The predictions of three Quantile-based models.|
 | **Figure 9:**    | `results/figure_9.txt` | The traffic speed predictions of three MAEMIS-based model.|
