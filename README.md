@@ -25,7 +25,7 @@ Instructions for docker user:
 - Run the command: ``` docker image pull tianshubao/uqtraffic:iccpsv1 ``` 
 - Run the command: ``` docker run --name big-container -it tianshubao/uqtraffic:iccpsv1 ``` to start the container.  The container's name is `big-container`.
 
-The docker image contains 24 models and codes for plots with all METR-LA and PEMSD8 datasets. The docker image does not include GPU infrastructure. To run them on GPU, you will need to install nvidia-docker. So, reproducing the training steps of the 50 epochs may take a few hours for each model. The codes for plots can finish quickly since they use existing results.
+The docker image contains 24 models and codes for plots with all METR-LA and PEMSD8 datasets. The docker image does not include GPU infrastructure. To run them on GPU, you will need to install nvidia-docker which may not be easy. So in the docker, reproducing the training steps of the 50 epochs takes a few hours for each model. The codes for plots can finish quickly since they use existing results.
 
 ### System Requirements: 
 The host platform we used to prepare the docker image is a Dell Precision 5680 with Windows 11 Pro 64-bit OS, i7-13800H CPU, and NVIDIA RTX 3500 Ada GPU.
