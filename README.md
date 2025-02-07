@@ -22,10 +22,10 @@ matplotlib
   
 Instructions for docker user:
 - Activate Docker on your local machine. 
-- Run the command: ``` docker image pull tianshubao/uqtraffic:iccps ``` 
-- Run the command: ``` docker run -it tianshubao/uqtraffic:iccps ``` to start the container.  
+- Run the command: ``` docker image pull tianshubao/uqtraffic:iccpsv1 ``` 
+- Run the command: ``` docker run --name big-container -it tianshubao/uqtraffic:iccpsv1 ``` to start the container.  The container's name is big-container.
 
-The docker image contains 4 models with datasets. We didn't provide all the models due to space limits. Each model must be assigned the whole dataset to make them runnable. You can manually put the dataset into each model and test them. The docker image does not contain GPU infrastructure. To run them on GPU, you will need to install nvidia-docker. 
+The docker image contains 24 models with datasets. The docker image does not contain GPU infrastructure. To run them on GPU, you will need to install nvidia-docker. 
 
 ### System Requirements: 
 The host platform we used to prepare the docker image is a Dell Precision 5680 with Windows 11 Pro 64-bit OS, i7-13800H CPU, and NVIDIA RTX 3500 Ada GPU.
