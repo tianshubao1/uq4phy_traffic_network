@@ -43,7 +43,7 @@ For example, you can do the following for `quantile` model using METR-LA dataset
 | GPDE+Quantile   | `cd gpde_quantile_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml`| Start training gpde_quantile_model using METR-LA datasets|
 | GPDE+Quantile+Phy    | `cd gpde_quantile_phy_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training gpde_quantile_phy_model using METR-LA datasets|
 
-These cmds may take a few hours for each one to finish.
+
 
 You can do the following for `maemis` model using METR-LA datasets.
 
@@ -53,7 +53,7 @@ You can do the following for `maemis` model using METR-LA datasets.
 | GPDE+MAEMIS   | `cd gpde_maemis_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml`| Start training gpde_maemis_model using METR-LA datasets|
 | GPDE+MAEMIS+Phy    | `cd gpde_maemis_phy_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training gpde_maemis_phy_model using METR-LA datasets|
 
-These cmds may take a few hours for each one to finish.
+
 
 For gpde_quantile_phy_model using PEMSD8 dataset in Table 2, you can follow the steps below:
 |          | Command | Description|
