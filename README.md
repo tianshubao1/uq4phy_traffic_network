@@ -50,7 +50,7 @@ We use Jupyter to convert the .ipynb file to .py file and then we run this pytho
 
 
 The above cmd would generate the figures in the folder `/ICCPS25_repo/plot/outputs`. The next step is to copy these figures out. \
-```docker cp big-container:/ICCPS25_repo/plot/outputs ./results``` 
+```docker cp big-container:/ICCPS25_repo/plot/outputs ./``` 
 This cmd copies the folder `/ICCPS25_repo/plot/output` to your local directory. Please ensure that the container is on while you copy the files.
 
 ### Dataset: 
