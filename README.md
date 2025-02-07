@@ -43,7 +43,7 @@ We use jupyter notebook which will open a HTML page, please use Chrome or Web Ex
 | **Figure 3:**    | `jupyter notebook maemis_model_seperate.ipynb` | Ablation study for MAEMIS-based methods in PEMSD8 datasets.|
 | **Figure 4:**    | `jupyter notebook quantile_model_seperate_PEMSD8.ipynb` | Ablation study for Quantile methods in PEMSD8 datasets.|
 | **Figure 5, 6:**   | `jupyter notebook plot_PEMSD8_regularization.ipynb` | GPDE+Quantile+Phy, GPDE+MAEMIS+Phy model error distribution with various 𝜆 values.|
-| **Figure 7:**    | `results/figure_7.txt` | The test loss for model convergence of quantile-based method.|
+| **Figure 7:**    | `jupyter notebook quantile_model_seperate.ipynb` | The test loss for model convergence of quantile-based method.|
 | **Figure 8:**    | `results/figure_8.txt` | The predictions of three Quantile-based models.|
 | **Figure 9:**    | `jupyter notebook plot_PEMSD8.ipynb` | The traffic speed predictions of three MAEMIS-based model.|
 | **Figure 10:**    | `results/figure_10.txt` | The predictions of three MAEMIS-based models.|
