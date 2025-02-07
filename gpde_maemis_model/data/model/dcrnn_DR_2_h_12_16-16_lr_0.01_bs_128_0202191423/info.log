@@ -1,0 +1,7 @@
+2025-02-02 19:14:23,846 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model\dcrnn_DR_2_h_12_16-16_lr_0.01_bs_128_0202191423/
+2025-02-02 19:14:48,380 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-02-02 19:14:55,240 - model.pytorch.dcrnn_supervisor - INFO - Start training ...
+2025-02-02 19:14:55,240 - model.pytorch.dcrnn_supervisor - INFO - num_batches:188
+2025-02-02 19:15:03,537 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 24632
+2025-02-02 19:58:31,957 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-02-02 19:58:31,957 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
