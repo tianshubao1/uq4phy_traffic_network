@@ -45,7 +45,7 @@ We use jupyter notebook which will open a HTML page, please use Chrome or Web Ex
 | **Figure 5, 6:**   | `jupyter notebook plot_PEMSD8_regularization.ipynb` | GPDE+Quantile+Phy, GPDE+MAEMIS+Phy model error distribution with various 𝜆 values.|
 | **Figure 7:**    | `jupyter notebook quantile_model_seperate.ipynb` | The test loss for model convergence of quantile-based method.|
 | **Figure 8:**    | `results/figure_8.txt` | The predictions of three Quantile-based models.|
-| **Figure 9:**    | `jupyter notebook plot_PEMSD8.ipynb` | The traffic speed predictions of three MAEMIS-based model.|
+| **Figure 9:**    | `jupyter notebook plot_PEMSD8_maemis.ipynb` | The traffic speed predictions of three MAEMIS-based model.|
 | **Figure 10:**    | `results/figure_10.txt` | The predictions of three MAEMIS-based models.|
 
 ### Dataset: 
