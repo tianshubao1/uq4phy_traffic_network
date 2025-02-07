@@ -42,6 +42,7 @@ For example, you can do the following for `maemis_model_PEMSD8` model using METR
 | MAEMIS    | `cd maemis_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training maemis_model using METR-LA datasets|
 | GPDE+MAEMIS   | `cd gpde_maemis_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml`| Start training gpde_maemis_model using METR-LA datasets|
 | GPDE+MAEMIS+Phy    | `cd gpde_maemis_phy_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training gpde_maemis_phy_model using METR-LA datasets|
+
 These cmds may take a few hours for each one to finish.
 
 For gpde_quantile_phy_model using PEMSD8 dataset in Table 2, you can follow the steps below:
@@ -50,6 +51,7 @@ For gpde_quantile_phy_model using PEMSD8 dataset in Table 2, you can follow the 
 | 𝜆=0.01:    | `cd gpde_quantile_phy_model_PEMSD8_0.01` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training model GPDE+Quantile+Phy with 𝜆=0.01|
 | 𝜆=0.005    | `cd gpde_quantile_phy_model_PEMSD8_0.005` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml`| Start training model GPDE+Quantile+Phy with 𝜆=0.005|
 | 𝜆=0.002    | `cd gpde_quantile_phy_model_PEMSD8` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training model GPDE+Quantile+Phy with 𝜆=0.002|
+
 These cmds may take a few hours for each one to finish.
 
 
