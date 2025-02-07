@@ -33,7 +33,7 @@ The host platform is a Dell Precision 5680 with Windows 11 Pro 64-bit OS, i7-138
 ### Command for Training: 
 ```cd ANY_UQ_MODEL```            # you can replace ANY_UQ_MODEL by any folder in the repo,  \
 ```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    
-By running this command every time, you will generate each row of Table 1, 2. The cmd will print the MAE, MIS, MSE, RMSE for validation datasets and test datasets for each epoch. The output contains 12-step future predictions, each step represents a 5-minute stride, so it outputs the predictions for the next 5 min - 60 min. The metrics measure the average of them. When we calculate the metrics for 15 min, 30 min, and 60 min, we extract the corresponding values from the output and calculate these metrics separately.
+By running this command every time, you will generate each row of Table 1, 2. The cmd will print the MAE, MIS, MSE, RMSE for validation datasets and test datasets for each epoch. The output contains 12-step future predictions, and each step represents a 5-minute stride. So, it outputs the predictions for the next 5 min - 60 min and the metrics measure the average of them. When we calculate the metrics for 15 min, 30 min, and 60 min, we extract the corresponding values from the output and calculate these metrics separately.
 
 For example, you can do the following for `quantile` model using METR-LA datasets.
 
