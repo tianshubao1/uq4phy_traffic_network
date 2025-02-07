@@ -228,7 +228,7 @@ class DCRNNSupervisor:
             y_preds_scaled = [gamma_pred_scaled,nu_pred_scaled,alpha_pred_scaled,beta_pred_scaled]
 
 
-            return loss_mis,loss_width,loss_mse,loss_rmse,loss_mae,{'prediction': y_preds_scaled, 'truth': y_truths_scaled}
+            return loss_mis,loss_width,loss_mse,loss_rmse,loss_mae#,{'prediction': y_preds_scaled, 'truth': y_truths_scaled}
 
     def _train(self, base_lr,
                steps, patience=50, epochs=100, lr_decay_ratio=0.1, log_every=1, save_model=1,
