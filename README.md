@@ -42,9 +42,7 @@ For example, you can do the following for `maemis_model_PEMSD8` model using METR
 | MAEMIS    | `cd maemis_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training maemis_model using METR-LA datasets|
 | GPDE+MAEMIS   | `cd gpde_maemis_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml`| Start training gpde_maemis_model using METR-LA datasets|
 | GPDE+MAEMIS+Phy    | `cd gpde_maemis_phy_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training gpde_maemis_phy_model using METR-LA datasets|
-
-```cd maemis_model_PEMSD8```            
-```python dcrnn_train_pytorch.py –config_filename=data/model/dcrnn_la.yaml``` 
+These cmds may take a few hours for each one to finish.
 
 For gpde_quantile_phy_model using PEMSD8 dataset in Table 2, you can follow the steps below:
 |          | Command | Description|
@@ -52,7 +50,7 @@ For gpde_quantile_phy_model using PEMSD8 dataset in Table 2, you can follow the 
 | 𝜆=0.01:    | `cd gpde_quantile_phy_model_PEMSD8_0.01` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training model GPDE+Quantile+Phy with 𝜆=0.01|
 | 𝜆=0.005    | `cd gpde_quantile_phy_model_PEMSD8_0.005` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml`| Start training model GPDE+Quantile+Phy with 𝜆=0.005|
 | 𝜆=0.002    | `cd gpde_quantile_phy_model_PEMSD8` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training model GPDE+Quantile+Phy with 𝜆=0.002|
-
+These cmds may take a few hours for each one to finish.
 
 
 ### Plots: ###
@@ -69,8 +67,7 @@ We use Jupyter to convert the .ipynb file to .py file and then we run this pytho
 | **Figure 9:**    | `jupyter nbconvert --to script plot_PEMSD8_maemis.ipynb` `python plot_PEMSD8_maemis.py`| The traffic speed predictions of three MAEMIS-based model.|
 | **Figure 10:**   | `jupyter nbconvert --to script plot_METR-LA_maemis.ipynb` `python plot_METR-LA_maemis.py`| The predictions of three MAEMIS-based models.| \
 
-
-The above cmd would generate the figures in the folder `/ICCPS25_repo/plot/outputs`. The next step is to copy these figures out. \
+The above cmds run fast and generate the figures in the folder `/ICCPS25_repo/plot/outputs`. The next step is to copy these figures out. \
 ```docker cp big-container:/ICCPS25_repo/plot/outputs ./``` 
 This cmd copies the folder `/ICCPS25_repo/plot/output` to your local directory. Please ensure that the container is on while you copy the files.
 
