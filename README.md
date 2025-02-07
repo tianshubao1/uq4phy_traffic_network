@@ -30,11 +30,11 @@ The docker image contains 24 models with datasets. The docker image does not con
 ### System Requirements: 
 The host platform we used to prepare the docker image is a Dell Precision 5680 with Windows 11 Pro 64-bit OS, i7-13800H CPU, and NVIDIA RTX 3500 Ada GPU.
 
-### Command: 
+### Command for Training: 
 ```cd ANY_UQ_MODEL```            # you can replace ANY_UQ_MODEL by any folder in the repo,  \
 ```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    #by running this command every time, you will generate each row of Table 1, 2
 
-### Generating Plots: ###
+### Plots: ###
 The instructions for generating the figures are listed below: \
 ```cd plot``` \
 We use Jupyter to convert the .ipynb file to .py file and then we run this python file to generate the figures.
