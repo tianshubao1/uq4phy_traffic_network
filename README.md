@@ -38,7 +38,7 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 The instructions for generating the figures are listed below: \
 ```cd plot``` \
 We use jupyter notebook which will open a HTML page, please use Chrome or Web Explorer to open it.
-| Artifact | Result Location | Description|
+|  | Command | Description|
 | -------- | -------- | -------- |
 | **Figure 3:**    | `jupyter notebook maemis_model_seperate.ipynb` | Ablation study for MAEMIS-based methods in PEMSD8 datasets.|
 | **Figure 4:**    | `jupyter notebook quantile_model_seperate_PEMSD8.ipynb` | Ablation study for Quantile methods in PEMSD8 datasets.|
