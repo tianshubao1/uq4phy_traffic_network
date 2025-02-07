@@ -37,20 +37,21 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 ### Generating Plots: ###
 The instructions for generating the figures are listed below: \
 ```cd plot``` \
-We use jupyter notebook which will open a HTML page, please use Chrome or Web Explorer to open it.
+We use Jupyter to convert the .ipynb file to .py file and then we run this python file to generate the figures.
 |  | Command | Description|
 | -------- | -------- | -------- |
 | **Figure 3:**    | `jupyter nbconvert --to script maemis_model_seperate.ipynb` `python maemis_model_seperate.py` | Ablation study for MAEMIS-based methods in PEMSD8 datasets.|
-| **Figure 4:**    | `jupyter notebook quantile_model_seperate_PEMSD8.ipynb` | Ablation study for Quantile methods in PEMSD8 datasets.|
-| **Figure 5, 6:**   | `jupyter notebook plot_PEMSD8_regularization.ipynb` | GPDE+Quantile+Phy, GPDE+MAEMIS+Phy model error distribution with various 𝜆 values.|
-| **Figure 7:**    | `jupyter notebook quantile_model_seperate.ipynb` | The test loss for model convergence of quantile-based method.|
+| **Figure 4:**    | `jupyter nbconvert --to script quantile_model_seperate_PEMSD8.ipynb` `python quantile_model_seperate_PEMSD8.py` | Ablation study for Quantile methods in PEMSD8 datasets.|
+| **Figure 5, 6:**   | `jupyter nbconvert --to script plot_PEMSD8_regularization.ipynb` `python plot_PEMSD8_regularization.py`| GPDE+Quantile+Phy, GPDE+MAEMIS+Phy model error distribution with various 𝜆 values.|
+| **Figure 7:**    | `jupyter nbconvert --to script quantile_model_seperate.ipynb` `python quantile_model_seperate.py`| The test loss for model convergence of quantile-based method.|
 | **Figure 8:**    | `jupyter notebook plot_PEMSD8.ipynb` | The predictions of three Quantile-based models.|
 | **Figure 9:**    | `jupyter notebook plot_PEMSD8_maemis.ipynb` | The traffic speed predictions of three MAEMIS-based model.|
 | **Figure 10:**    | `jupyter notebook plot_METR-LA_maemis.ipynb` | The predictions of three MAEMIS-based models.| \
 
 
 The above cmd would generate the figures in the folder `/ICCPS25_repo/plot/outputs`. The next step is to copy these figures out. \
-```docker cp big-container:/ICCPS25_repo/plot/outputs ./results``` This cmd copy the folder `/ICCPS25_repo/plot/output` to the local directory. Please ensure that the container is on while you copy the files.\
+```docker cp big-container:/ICCPS25_repo/plot/outputs ./results``` 
+This cmd copies the folder `/ICCPS25_repo/plot/output` to your local directory. Please ensure that the container is on while you copy the files.
 
 ### Dataset: 
 https://drive.google.com/drive/folders/1s1NaJ2DNgQWQr-p7i0586fjJsGidrvEU?usp=drive_link
