@@ -46,7 +46,7 @@ We use jupyter notebook which will open a HTML page, please use Chrome or Web Ex
 | **Figure 7:**    | `jupyter notebook quantile_model_seperate.ipynb` | The test loss for model convergence of quantile-based method.|
 | **Figure 8:**    | `results/figure_8.txt` | The predictions of three Quantile-based models.|
 | **Figure 9:**    | `jupyter notebook plot_PEMSD8_maemis.ipynb` | The traffic speed predictions of three MAEMIS-based model.|
-| **Figure 10:**    | `results/figure_10.txt` | The predictions of three MAEMIS-based models.|
+| **Figure 10:**    | `jupyter notebook plot_METR-LA_maemis.ipynb` | The predictions of three MAEMIS-based models.|
 
 ### Dataset: 
 https://drive.google.com/drive/folders/1s1NaJ2DNgQWQr-p7i0586fjJsGidrvEU?usp=drive_link
