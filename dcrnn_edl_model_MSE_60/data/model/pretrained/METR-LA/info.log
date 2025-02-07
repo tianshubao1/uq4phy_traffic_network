@@ -1,0 +1,5 @@
+2025-02-02 02:58:47,884 - model.pytorch.dcrnn_supervisor - INFO - Log directory: dcrnn_edl_model_MSE_60/data/model/pretrained/METR-LA
+2025-02-02 03:00:40,451 - model.pytorch.dcrnn_supervisor - INFO - Log directory: dcrnn_edl_model_MSE_60/data/model/pretrained/METR-LA
+2025-02-02 03:00:48,327 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-02-02 03:03:25,906 - model.pytorch.dcrnn_supervisor - INFO - Log directory: dcrnn_edl_model_MSE_60/data/model/pretrained/METR-LA
+2025-02-02 03:03:34,240 - model.pytorch.dcrnn_supervisor - INFO - Model created
