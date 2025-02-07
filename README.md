@@ -80,7 +80,7 @@ We use Jupyter to convert the .ipynb file to .py file and then we run this pytho
 | **Figure 10:**   | `jupyter nbconvert --to script plot_METR-LA_maemis.ipynb` `python plot_METR-LA_maemis.py`| The predictions of three MAEMIS-based models.| \
 
 The above cmds run fast and generate the figures in the folder `/ICCPS25_repo/plot/outputs`. The next step is to copy these figures out by using: \
-```docker cp big-container:/ICCPS25_repo/plot/outputs ./``` 
+```docker cp big-container:/ICCPS25_repo/plot/outputs ./``` \
 This cmd copies the folder `/ICCPS25_repo/plot/output` to your local directory. Please ensure that the container `big-container` is on while you copy the files.
 
 ### Zenodo: 
