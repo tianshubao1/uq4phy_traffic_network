@@ -28,7 +28,7 @@ Instructions for docker user:
 The docker image contains 24 models and codes for plots with all METR-LA and PEMSD8 datasets. The docker image does not include GPU infrastructure. To run them on GPU, you will need to install nvidia-docker which may not be easy. So in the docker, reproducing the training steps of the 50 epochs takes a few hours for each model. The codes for plots can finish quickly since they use existing results.
 
 ### System Requirements: 
-The host platform we used to prepare the docker image is a Dell Precision 5680 with Windows 11 Pro 64-bit OS, i7-13800H CPU, and NVIDIA RTX 3500 Ada GPU.
+The host platform is a Dell Precision 5680 with Windows 11 Pro 64-bit OS, i7-13800H CPU, and NVIDIA RTX 3500 Ada GPU.
 
 ### Command for Training: 
 ```cd ANY_UQ_MODEL```            # you can replace ANY_UQ_MODEL by any folder in the repo,  \
