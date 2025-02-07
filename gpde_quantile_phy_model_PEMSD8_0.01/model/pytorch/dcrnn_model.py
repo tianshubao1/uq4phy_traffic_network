@@ -40,7 +40,7 @@ class EncoderModel(nn.Module, Seq2SeqAttrs):
         self.rho_max = 0.649    #PEMSD8, rho_max,  this hyperparameter needs to be carefully chosen
         self.delta_t = 300/3600     # 5 min        
         
-        PEMSD8_matrix = np.load('gpde_quantile_phy_model_PEMSD8_0.01/data/sensor_graph/PEMSD8_matrix.npy')            
+        PEMSD8_matrix = np.load('data/sensor_graph/PEMSD8_matrix.npy')            
         self.weight_matrix = torch.from_numpy(PEMSD8_matrix).to(device)        
         self.weight_matrix[self.weight_matrix < 0.005] = 0       
         self.source_matrix = torch.transpose(self.weight_matrix, 0, 1)
@@ -143,7 +143,7 @@ class DecoderModel(nn.Module, Seq2SeqAttrs):
         self.rho_max = 0.649    #METR-LA, rho_max,  this hyperparameter needs to be carefully chosen
         self.delta_t = 300/3600     # 5 min          
         
-        PEMSD8_matrix = np.load('gpde_quantile_phy_model_PEMSD8_0.01/data/sensor_graph/PEMSD8_matrix.npy')  
+        PEMSD8_matrix = np.load('data/sensor_graph/PEMSD8_matrix.npy')  
         self.weight_matrix = torch.from_numpy(PEMSD8_matrix).to(device)              
         self.weight_matrix[self.weight_matrix < 0.005] = 0       
         self.source_matrix = torch.transpose(self.weight_matrix, 0, 1)
