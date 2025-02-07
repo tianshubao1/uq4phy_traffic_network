@@ -44,9 +44,9 @@ We use Jupyter to convert the .ipynb file to .py file and then we run this pytho
 | **Figure 4:**    | `jupyter nbconvert --to script quantile_model_seperate_PEMSD8.ipynb` `python quantile_model_seperate_PEMSD8.py` | Ablation study for Quantile methods in PEMSD8 datasets.|
 | **Figure 5, 6:**   | `jupyter nbconvert --to script plot_PEMSD8_regularization.ipynb` `python plot_PEMSD8_regularization.py`| GPDE+Quantile+Phy, GPDE+MAEMIS+Phy model error distribution with various 𝜆 values.|
 | **Figure 7:**    | `jupyter nbconvert --to script quantile_model_seperate.ipynb` `python quantile_model_seperate.py`| The test loss for model convergence of quantile-based method.|
-| **Figure 8:**    | `jupyter notebook plot_PEMSD8.ipynb` | The predictions of three Quantile-based models.|
-| **Figure 9:**    | `jupyter notebook plot_PEMSD8_maemis.ipynb` | The traffic speed predictions of three MAEMIS-based model.|
-| **Figure 10:**    | `jupyter notebook plot_METR-LA_maemis.ipynb` | The predictions of three MAEMIS-based models.| \
+| **Figure 8:**    | `jupyter nbconvert --to script plot_PEMSD8.ipynb` `python plot_PEMSD8.py`| The predictions of three Quantile-based models.|
+| **Figure 9:**    | `jupyter nbconvert --to script plot_PEMSD8_maemis.ipynb` `python plot_PEMSD8_maemis.py`| The traffic speed predictions of three MAEMIS-based model.|
+| **Figure 10:**   | `jupyter nbconvert --to script plot_METR-LA_maemis.ipynb` `python plot_METR-LA_maemis.py`| The predictions of three MAEMIS-based models.| \
 
 
 The above cmd would generate the figures in the folder `/ICCPS25_repo/plot/outputs`. The next step is to copy these figures out. \
