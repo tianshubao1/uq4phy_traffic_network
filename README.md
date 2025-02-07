@@ -33,7 +33,7 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 ### Command for Training: 
 ```cd ANY_UQ_MODEL```            # you can replace ANY_UQ_MODEL by any folder in the repo,  \
 ```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    
-By running this command every time, you will generate each row of Table 1, 2. The cmd will print the MAE, MIS, MSE, RMSE for validation datasets and test datasets after fishing the training of each epoch. The output cantain a future 12 steps predictions, each step represents a 5-minute stride, so it outputs the predictions for the next 5 min - 60 min. The metrics measure the average of them.
+By running this command every time, you will generate each row of Table 1, 2. The cmd will print the MAE, MIS, MSE, RMSE for validation datasets and test datasets after fishing the training of each epoch. The output contains 12-step future predictions, each step represents a 5-minute stride, so it outputs the predictions for the next 5 min - 60 min. The metrics measure the average of them. When we calculate the metrics for 15 min, 30 min, and 60 min, we extract the corresponding values from the output and calculate these metrics separately.
 
 For example, you can do the following for `maemis_model_PEMSD8` model using METR-LA datasets.
 
