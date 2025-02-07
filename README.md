@@ -35,12 +35,23 @@ The host platform we used to prepare the docker image is a Dell Precision 5680 w
 ```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    
 By running this command every time, you will generate each row of Table 1, 2. The cmd will print the MAE, MIS, MSE, RMSE for validation datasets and test datasets after fishing the training of each epoch. The output cantain a future 12 steps predictions, each step represents a 5-minute stride, so it outputs the predictions for the next 5 min - 60 min. The metrics measure the average of them.
 
-For example, you can do the following for `maemis_model_PEMSD8` model.
+For example, you can do the following for `maemis_model_PEMSD8` model using METR-LA datasets.
+
+|          | Command | Description|
+| -------- | -------- | -------- |
+| MAEMIS    | `cd maemis_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training maemis_model using METR-LA datasets|
+| GPDE+MAEMIS   | `cd gpde_maemis_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml`| Start training gpde_maemis_model using METR-LA datasets|
+| GPDE+MAEMIS+Phy    | `cd gpde_maemis_phy_model` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training gpde_maemis_phy_model using METR-LA datasets|
+
 ```cd maemis_model_PEMSD8```            
 ```python dcrnn_train_pytorch.py –config_filename=data/model/dcrnn_la.yaml``` 
 
-For experiments in Table 2, you oculd follow the steps below:
-
+For gpde_quantile_phy_model using PEMSD8 dataset in Table 2, you can follow the steps below:
+|          | Command | Description|
+| -------- | -------- | -------- |
+| 𝜆=0.01:    | `cd gpde_quantile_phy_model_PEMSD8_0.01` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training model GPDE+Quantile+Phy with 𝜆=0.01|
+| 𝜆=0.005    | `cd gpde_quantile_phy_model_PEMSD8_0.005` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml`| Start training model GPDE+Quantile+Phy with 𝜆=0.005|
+| 𝜆=0.002    | `cd gpde_quantile_phy_model_PEMSD8` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training model GPDE+Quantile+Phy with 𝜆=0.002|
 
 
 
@@ -48,7 +59,7 @@ For experiments in Table 2, you oculd follow the steps below:
 The instructions for generating the figures are listed below: \
 ```cd plot``` \
 We use Jupyter to convert the .ipynb file to .py file and then we run this python file to generate the figures.
-|  | Command | Description|
+|          | Command | Description|
 | -------- | -------- | -------- |
 | **Figure 3:**    | ```jupyter nbconvert --to script maemis_model_seperate.ipynb``` ```python maemis_model_seperate.py``` | Ablation study for MAEMIS-based methods in PEMSD8 datasets.|
 | **Figure 4:**    | ```jupyter nbconvert --to script quantile_model_seperate_PEMSD8.ipynb``` ```python quantile_model_seperate_PEMSD8.py``` | Ablation study for Quantile methods in PEMSD8 datasets.|
