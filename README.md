@@ -25,14 +25,24 @@ Instructions for docker user:
 - Run the command: ``` docker image pull tianshubao/uqtraffic:iccpsv1 ``` 
 - Run the command: ``` docker run --name big-container -it tianshubao/uqtraffic:iccpsv1 ``` to start the container.  The container's name is `big-container`.
 
-The docker image contains 24 models with datasets. The docker image does not contain GPU infrastructure. To run them on GPU, you will need to install nvidia-docker. 
+The docker image contains 24 models and codes for plots with all METR-LA and PEMSD8 datasets. The docker image does not include GPU infrastructure. To run them on GPU, you will need to install nvidia-docker. So, reproducing the training steps of the 50 epochs may take a few hours for each model. The codes for plots can finish quickly since they use existing results.
 
 ### System Requirements: 
 The host platform we used to prepare the docker image is a Dell Precision 5680 with Windows 11 Pro 64-bit OS, i7-13800H CPU, and NVIDIA RTX 3500 Ada GPU.
 
 ### Command for Training: 
 ```cd ANY_UQ_MODEL```            # you can replace ANY_UQ_MODEL by any folder in the repo,  \
-```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    #by running this command every time, you will generate each row of Table 1, 2
+```python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml```    
+By running this command every time, you will generate each row of Table 1, 2. The cmd will print the MAE, MIS, MSE, RMSE for validation datasets and test datasets after fishing the training of each epoch. The output cantain a future 12 steps predictions, each step represents a 5-minute stride, so it outputs the predictions for the next 5 min - 60 min. The metrics measure the average of them.
+
+For example, you can do the following for `maemis_model_PEMSD8` model.
+```cd maemis_model_PEMSD8```            
+```python dcrnn_train_pytorch.py –config_filename=data/model/dcrnn_la.yaml``` 
+
+For experiments in Table 2, you oculd follow the steps below:
+
+
+
 
 ### Plots: ###
 The instructions for generating the figures are listed below: \
@@ -52,9 +62,6 @@ We use Jupyter to convert the .ipynb file to .py file and then we run this pytho
 The above cmd would generate the figures in the folder `/ICCPS25_repo/plot/outputs`. The next step is to copy these figures out. \
 ```docker cp big-container:/ICCPS25_repo/plot/outputs ./``` 
 This cmd copies the folder `/ICCPS25_repo/plot/output` to your local directory. Please ensure that the container is on while you copy the files.
-
-### Dataset: 
-https://drive.google.com/drive/folders/1s1NaJ2DNgQWQr-p7i0586fjJsGidrvEU?usp=drive_link
 
 ### Zenodo: 
 https://zenodo.org/records/14783003 \
