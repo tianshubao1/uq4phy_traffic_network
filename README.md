@@ -45,7 +45,7 @@ For example, you can do the following for `quantile` model using METR-LA dataset
 
 These cmds may take a few hours for each one to finish.
 
-For example, you can do the following for `maemis` model using METR-LA datasets.
+You can do the following for `maemis` model using METR-LA datasets.
 
 |          | Command | Description|
 | -------- | -------- | -------- |
