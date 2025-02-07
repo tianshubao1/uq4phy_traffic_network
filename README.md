@@ -40,7 +40,7 @@ The instructions for generating the figures are listed below: \
 We use jupyter notebook which will open a HTML page, please use Chrome or Web Explorer to open it.
 |  | Command | Description|
 | -------- | -------- | -------- |
-| **Figure 3:**    | `jupyter notebook maemis_model_seperate.ipynb` | Ablation study for MAEMIS-based methods in PEMSD8 datasets.|
+| **Figure 3:**    | `jupyter nbconvert --to script maemis_model_seperate.ipynb` `python maemis_model_seperate.py` | Ablation study for MAEMIS-based methods in PEMSD8 datasets.|
 | **Figure 4:**    | `jupyter notebook quantile_model_seperate_PEMSD8.ipynb` | Ablation study for Quantile methods in PEMSD8 datasets.|
 | **Figure 5, 6:**   | `jupyter notebook plot_PEMSD8_regularization.ipynb` | GPDE+Quantile+Phy, GPDE+MAEMIS+Phy model error distribution with various 𝜆 values.|
 | **Figure 7:**    | `jupyter notebook quantile_model_seperate.ipynb` | The test loss for model convergence of quantile-based method.|
