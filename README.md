@@ -55,7 +55,7 @@ You can do the following for `maemis` model using METR-LA datasets.
 
 
 
-For gpde_quantile_phy_model using PEMSD8 dataset in Table 2, you can follow the steps below:
+For `gpde_quantile_phy_model` using PEMSD8 dataset in Table 2, you can follow the steps below:
 |          | Command | Description|
 | -------- | -------- | -------- |
 | 𝜆=0.01:    | `cd gpde_quantile_phy_model_PEMSD8_0.01` `python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml` | Start training model GPDE+Quantile+Phy with 𝜆=0.01|
