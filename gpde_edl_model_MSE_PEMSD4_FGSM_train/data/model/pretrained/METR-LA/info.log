@@ -1,0 +1,16 @@
+2025-08-04 21:28:19,793 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-08-04 21:28:40,149 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-04 21:32:57,269 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-08-04 21:33:17,426 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-04 21:34:05,041 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-08-04 21:34:24,686 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-04 21:34:26,027 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 18
+2025-08-11 22:26:13,542 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-08-11 22:26:34,095 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-11 22:26:35,383 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 18
+2025-08-11 22:54:35,512 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-08-11 22:54:57,193 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-11 22:54:59,095 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 18
+2025-09-06 03:19:58,721 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-09-06 03:20:23,424 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-09-06 03:20:25,116 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 18
