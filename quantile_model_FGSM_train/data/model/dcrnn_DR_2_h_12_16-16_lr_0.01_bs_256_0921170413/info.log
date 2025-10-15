@@ -1,0 +1,102 @@
+2025-09-21 17:04:13,016 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model\dcrnn_DR_2_h_12_16-16_lr_0.01_bs_256_0921170413/
+2025-09-21 17:04:47,841 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-09-21 17:05:26,665 - model.pytorch.dcrnn_supervisor - INFO - Start training ...
+2025-09-21 17:05:26,665 - model.pytorch.dcrnn_supervisor - INFO - num_batches:94
+2025-09-21 17:05:28,550 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 24003
+2025-09-21 17:05:31,510 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 24003
+2025-09-21 17:12:55,099 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 17:12:55,099 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 17:13:42,675 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/20] (94) val_mae_adv:4.5145, val_mis_adv:53.6433, val_width_adv:15.3955, val_mse_adv:71.4398, val_rmse_adv:8.4522
+2025-09-21 17:15:22,863 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/20] (94) test_mae_adv:5.0525, test_mis_adv:61.7302, test_width_adv:17.4831, test_mse_adv:85.0094, test_rmse_adv:9.2201
+2025-09-21 17:15:22,989 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 0
+2025-09-21 17:15:22,989 - model.pytorch.dcrnn_supervisor - INFO - Val loss_adv decrease from inf to 4.5145, saving to models/epo0.tar
+2025-09-21 17:23:01,162 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 17:23:01,168 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 17:23:50,812 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/20] (188) val_mae_adv:4.2604, val_mis_adv:54.9551, val_width_adv:13.4884, val_mse_adv:66.3415, val_rmse_adv:8.1450
+2025-09-21 17:25:27,022 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/20] (188) test_mae_adv:4.7047, test_mis_adv:62.6354, test_width_adv:14.8307, test_mse_adv:76.0759, test_rmse_adv:8.7222
+2025-09-21 17:25:27,038 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 1
+2025-09-21 17:25:27,038 - model.pytorch.dcrnn_supervisor - INFO - Val loss_adv decrease from 4.5145 to 4.2604, saving to models/epo1.tar
+2025-09-21 17:33:06,696 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 17:33:06,696 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 17:33:53,866 - model.pytorch.dcrnn_supervisor - INFO - Epoch [2/20] (282) val_mae_adv:3.8817, val_mis_adv:54.1040, val_width_adv:13.3510, val_mse_adv:57.8781, val_rmse_adv:7.6078
+2025-09-21 17:35:32,075 - model.pytorch.dcrnn_supervisor - INFO - Epoch [2/20] (282) test_mae_adv:4.2896, test_mis_adv:61.7464, test_width_adv:14.3176, test_mse_adv:66.0265, test_rmse_adv:8.1257
+2025-09-21 17:35:32,091 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 2
+2025-09-21 17:35:32,091 - model.pytorch.dcrnn_supervisor - INFO - Val loss_adv decrease from 4.2604 to 3.8817, saving to models/epo2.tar
+2025-09-21 17:43:08,680 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 17:43:08,680 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 17:43:57,074 - model.pytorch.dcrnn_supervisor - INFO - Epoch [3/20] (376) val_mae_adv:4.3439, val_mis_adv:69.9751, val_width_adv:9.7547, val_mse_adv:63.7251, val_rmse_adv:7.9828
+2025-09-21 17:45:44,633 - model.pytorch.dcrnn_supervisor - INFO - Epoch [3/20] (376) test_mae_adv:4.7369, test_mis_adv:79.0934, test_width_adv:10.7817, test_mse_adv:72.3705, test_rmse_adv:8.5071
+2025-09-21 17:53:23,364 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 17:53:23,364 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 17:54:10,952 - model.pytorch.dcrnn_supervisor - INFO - Epoch [4/20] (470) val_mae_adv:3.9585, val_mis_adv:59.8280, val_width_adv:11.4448, val_mse_adv:58.6722, val_rmse_adv:7.6598
+2025-09-21 17:55:56,636 - model.pytorch.dcrnn_supervisor - INFO - Epoch [4/20] (470) test_mae_adv:4.3862, test_mis_adv:68.5630, test_width_adv:12.3296, test_mse_adv:67.3539, test_rmse_adv:8.2069
+2025-09-21 18:03:35,063 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 18:03:35,063 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 18:04:22,663 - model.pytorch.dcrnn_supervisor - INFO - Epoch [5/20] (564) val_mae_adv:3.8865, val_mis_adv:56.7029, val_width_adv:11.9303, val_mse_adv:57.4217, val_rmse_adv:7.5777
+2025-09-21 18:05:59,071 - model.pytorch.dcrnn_supervisor - INFO - Epoch [5/20] (564) test_mae_adv:4.2967, test_mis_adv:65.0350, test_width_adv:12.8528, test_mse_adv:66.2267, test_rmse_adv:8.1380
+2025-09-21 18:13:26,362 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 18:13:26,362 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 18:14:14,133 - model.pytorch.dcrnn_supervisor - INFO - Epoch [6/20] (658) val_mae_adv:3.8102, val_mis_adv:57.6619, val_width_adv:11.2778, val_mse_adv:59.0348, val_rmse_adv:7.6834
+2025-09-21 18:15:52,542 - model.pytorch.dcrnn_supervisor - INFO - Epoch [6/20] (658) test_mae_adv:4.2282, test_mis_adv:66.6749, test_width_adv:12.1798, test_mse_adv:68.5314, test_rmse_adv:8.2784
+2025-09-21 18:15:52,557 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 6
+2025-09-21 18:15:52,557 - model.pytorch.dcrnn_supervisor - INFO - Val loss_adv decrease from 3.8817 to 3.8102, saving to models/epo6.tar
+2025-09-21 18:23:27,985 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 18:23:27,985 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 18:24:16,312 - model.pytorch.dcrnn_supervisor - INFO - Epoch [7/20] (752) val_mae_adv:3.7747, val_mis_adv:56.3366, val_width_adv:11.6389, val_mse_adv:57.5016, val_rmse_adv:7.5830
+2025-09-21 18:25:53,369 - model.pytorch.dcrnn_supervisor - INFO - Epoch [7/20] (752) test_mae_adv:4.1831, test_mis_adv:65.1030, test_width_adv:12.4926, test_mse_adv:66.8282, test_rmse_adv:8.1749
+2025-09-21 18:25:53,385 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 7
+2025-09-21 18:25:53,385 - model.pytorch.dcrnn_supervisor - INFO - Val loss_adv decrease from 3.8102 to 3.7747, saving to models/epo7.tar
+2025-09-21 18:33:20,218 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 18:33:20,218 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 18:34:14,956 - model.pytorch.dcrnn_supervisor - INFO - Epoch [8/20] (846) val_mae_adv:3.9782, val_mis_adv:57.4554, val_width_adv:11.1096, val_mse_adv:59.6032, val_rmse_adv:7.7203
+2025-09-21 18:35:53,870 - model.pytorch.dcrnn_supervisor - INFO - Epoch [8/20] (846) test_mae_adv:4.3796, test_mis_adv:66.4619, test_width_adv:12.0060, test_mse_adv:69.4259, test_rmse_adv:8.3322
+2025-09-21 18:43:20,253 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 18:43:20,253 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 18:44:11,991 - model.pytorch.dcrnn_supervisor - INFO - Epoch [9/20] (940) val_mae_adv:3.8252, val_mis_adv:57.1371, val_width_adv:10.9544, val_mse_adv:58.5164, val_rmse_adv:7.6496
+2025-09-21 18:45:46,314 - model.pytorch.dcrnn_supervisor - INFO - Epoch [9/20] (940) test_mae_adv:4.2334, test_mis_adv:66.2422, test_width_adv:11.8301, test_mse_adv:68.1847, test_rmse_adv:8.2574
+2025-09-21 18:53:26,106 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 18:53:26,106 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 18:54:14,422 - model.pytorch.dcrnn_supervisor - INFO - Epoch [10/20] (1034) val_mae_adv:3.8651, val_mis_adv:57.8762, val_width_adv:10.6267, val_mse_adv:58.2138, val_rmse_adv:7.6298
+2025-09-21 18:55:54,066 - model.pytorch.dcrnn_supervisor - INFO - Epoch [10/20] (1034) test_mae_adv:4.2762, test_mis_adv:67.1211, test_width_adv:11.4721, test_mse_adv:67.9870, test_rmse_adv:8.2454
+2025-09-21 19:03:22,368 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 19:03:22,368 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 19:04:10,362 - model.pytorch.dcrnn_supervisor - INFO - Epoch [11/20] (1128) val_mae_adv:3.7475, val_mis_adv:55.1975, val_width_adv:11.9677, val_mse_adv:56.8972, val_rmse_adv:7.5430
+2025-09-21 19:05:52,045 - model.pytorch.dcrnn_supervisor - INFO - Epoch [11/20] (1128) test_mae_adv:4.1546, test_mis_adv:64.2038, test_width_adv:12.6424, test_mse_adv:66.5513, test_rmse_adv:8.1579
+2025-09-21 19:05:52,061 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 11
+2025-09-21 19:05:52,061 - model.pytorch.dcrnn_supervisor - INFO - Val loss_adv decrease from 3.7747 to 3.7475, saving to models/epo11.tar
+2025-09-21 19:13:20,411 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 19:13:20,427 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 19:14:06,428 - model.pytorch.dcrnn_supervisor - INFO - Epoch [12/20] (1222) val_mae_adv:3.7373, val_mis_adv:55.5729, val_width_adv:11.5973, val_mse_adv:54.8075, val_rmse_adv:7.4032
+2025-09-21 19:15:45,969 - model.pytorch.dcrnn_supervisor - INFO - Epoch [12/20] (1222) test_mae_adv:4.1294, test_mis_adv:64.6945, test_width_adv:12.2508, test_mse_adv:64.1011, test_rmse_adv:8.0063
+2025-09-21 19:15:46,000 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 12
+2025-09-21 19:15:46,000 - model.pytorch.dcrnn_supervisor - INFO - Val loss_adv decrease from 3.7475 to 3.7373, saving to models/epo12.tar
+2025-09-21 19:23:20,437 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 19:23:20,437 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 19:24:11,452 - model.pytorch.dcrnn_supervisor - INFO - Epoch [13/20] (1316) val_mae_adv:3.7590, val_mis_adv:58.3280, val_width_adv:10.2066, val_mse_adv:57.8802, val_rmse_adv:7.6079
+2025-09-21 19:25:48,554 - model.pytorch.dcrnn_supervisor - INFO - Epoch [13/20] (1316) test_mae_adv:4.1678, test_mis_adv:67.7610, test_width_adv:10.9674, test_mse_adv:67.4327, test_rmse_adv:8.2117
+2025-09-21 19:33:19,049 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 19:33:19,049 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 19:34:06,611 - model.pytorch.dcrnn_supervisor - INFO - Epoch [14/20] (1410) val_mae_adv:3.6570, val_mis_adv:56.4395, val_width_adv:10.3102, val_mse_adv:53.4106, val_rmse_adv:7.3083
+2025-09-21 19:35:55,132 - model.pytorch.dcrnn_supervisor - INFO - Epoch [14/20] (1410) test_mae_adv:4.0558, test_mis_adv:65.6132, test_width_adv:11.0389, test_mse_adv:62.5317, test_rmse_adv:7.9077
+2025-09-21 19:35:55,148 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 14
+2025-09-21 19:35:55,148 - model.pytorch.dcrnn_supervisor - INFO - Val loss_adv decrease from 3.7373 to 3.6570, saving to models/epo14.tar
+2025-09-21 19:43:44,146 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 19:43:44,146 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 19:44:45,036 - model.pytorch.dcrnn_supervisor - INFO - Epoch [15/20] (1504) val_mae_adv:3.8838, val_mis_adv:58.8067, val_width_adv:10.0026, val_mse_adv:57.5291, val_rmse_adv:7.5848
+2025-09-21 19:46:30,309 - model.pytorch.dcrnn_supervisor - INFO - Epoch [15/20] (1504) test_mae_adv:4.2832, test_mis_adv:68.3511, test_width_adv:10.7181, test_mse_adv:67.1354, test_rmse_adv:8.1936
+2025-09-21 19:54:20,965 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 19:54:20,965 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 19:55:17,111 - model.pytorch.dcrnn_supervisor - INFO - Epoch [16/20] (1598) val_mae_adv:3.7925, val_mis_adv:58.9750, val_width_adv:10.5984, val_mse_adv:55.6235, val_rmse_adv:7.4581
+2025-09-21 19:56:52,433 - model.pytorch.dcrnn_supervisor - INFO - Epoch [16/20] (1598) test_mae_adv:4.1704, test_mis_adv:68.2200, test_width_adv:11.1882, test_mse_adv:64.7785, test_rmse_adv:8.0485
+2025-09-21 20:04:39,716 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 20:04:39,716 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 20:05:28,589 - model.pytorch.dcrnn_supervisor - INFO - Epoch [17/20] (1692) val_mae_adv:3.6594, val_mis_adv:57.8607, val_width_adv:10.3826, val_mse_adv:54.0987, val_rmse_adv:7.3552
+2025-09-21 20:07:13,270 - model.pytorch.dcrnn_supervisor - INFO - Epoch [17/20] (1692) test_mae_adv:4.0437, test_mis_adv:67.1915, test_width_adv:10.9539, test_mse_adv:63.0738, test_rmse_adv:7.9419
+2025-09-21 20:15:02,512 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 20:15:02,512 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 20:15:52,596 - model.pytorch.dcrnn_supervisor - INFO - Epoch [18/20] (1786) val_mae_adv:3.7791, val_mis_adv:58.2971, val_width_adv:9.8091, val_mse_adv:55.7080, val_rmse_adv:7.4638
+2025-09-21 20:17:25,559 - model.pytorch.dcrnn_supervisor - INFO - Epoch [18/20] (1786) test_mae_adv:4.1776, test_mis_adv:67.7829, test_width_adv:10.4737, test_mse_adv:64.9967, test_rmse_adv:8.0621
+2025-09-21 20:25:18,377 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-09-21 20:25:18,377 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-09-21 20:26:09,461 - model.pytorch.dcrnn_supervisor - INFO - Epoch [19/20] (1880) val_mae_adv:3.6793, val_mis_adv:58.2332, val_width_adv:9.7184, val_mse_adv:54.8666, val_rmse_adv:7.4072
+2025-09-21 20:27:49,163 - model.pytorch.dcrnn_supervisor - INFO - Epoch [19/20] (1880) test_mae_adv:4.0753, test_mis_adv:67.6988, test_width_adv:10.3665, test_mse_adv:63.9938, test_rmse_adv:7.9996
