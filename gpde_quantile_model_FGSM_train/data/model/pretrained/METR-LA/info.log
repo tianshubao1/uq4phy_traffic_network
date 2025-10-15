@@ -1,0 +1,5 @@
+2025-09-22 03:17:59,806 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-09-22 03:18:38,387 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-09-22 03:50:49,973 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-09-22 03:51:26,858 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-09-22 03:51:27,861 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 17
