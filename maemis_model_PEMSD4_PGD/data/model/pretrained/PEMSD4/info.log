@@ -1,0 +1,11 @@
+2025-08-07 21:32:02,813 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/PEMSD4
+2025-08-07 21:32:26,031 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-07 21:36:26,780 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/PEMSD4
+2025-08-07 21:36:47,817 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-07 21:36:48,777 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 18
+2025-08-12 19:37:38,067 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/PEMSD4
+2025-08-12 19:37:59,726 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-12 19:38:00,841 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 18
+2025-09-08 16:17:32,747 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/PEMSD4
+2025-09-08 16:17:57,968 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-09-08 16:17:58,979 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 12
