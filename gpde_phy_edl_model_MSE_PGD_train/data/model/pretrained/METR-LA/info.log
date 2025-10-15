@@ -1,0 +1,91 @@
+2025-08-20 19:32:29,145 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-08-20 19:33:01,430 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-20 19:37:13,393 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-08-20 19:37:45,830 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-20 19:40:56,314 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-08-20 19:41:31,109 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-20 19:41:32,618 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 3
+2025-08-26 01:17:38,315 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2025-08-26 01:18:12,146 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-26 01:18:14,075 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 9
+2025-08-26 01:18:15,497 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:18,776 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:21,692 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:23,034 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:25,863 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:28,687 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:29,841 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:32,378 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:34,868 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:35,987 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:38,488 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:40,957 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:42,122 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:44,703 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:47,173 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:48,370 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:50,886 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:53,578 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:54,711 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:57,182 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:18:59,635 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:01,047 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:04,373 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:06,794 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:07,926 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:10,410 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:13,273 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:14,677 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:17,763 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:20,720 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:22,000 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:24,923 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:28,203 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:29,757 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:33,135 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:36,353 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:37,890 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:41,138 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:44,194 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:45,556 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:48,089 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:50,703 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:51,836 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:54,385 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:56,824 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:19:57,926 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:00,414 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:02,932 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:04,097 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:06,629 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:09,049 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:10,180 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:13,196 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:16,022 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:17,381 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:20,826 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:23,523 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:24,812 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:27,816 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:30,266 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:31,398 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:33,893 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:36,342 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:37,474 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:39,959 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:42,428 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:43,546 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:46,063 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:48,517 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:49,666 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:52,167 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:54,589 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:55,707 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:20:58,226 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:21:00,760 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:21:01,893 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:21:04,443 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:21:06,849 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:21:07,982 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:21:10,497 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
+2025-08-26 01:21:13,269 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 25594
