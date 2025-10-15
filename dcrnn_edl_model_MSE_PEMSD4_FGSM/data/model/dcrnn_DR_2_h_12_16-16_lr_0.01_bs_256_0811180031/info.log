@@ -1,0 +1,11 @@
+2025-08-11 18:00:31,163 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model\dcrnn_DR_2_h_12_16-16_lr_0.01_bs_256_0811180031/
+2025-08-11 18:00:53,909 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-08-11 18:01:02,446 - model.pytorch.dcrnn_supervisor - INFO - Start training ...
+2025-08-11 18:01:02,446 - model.pytorch.dcrnn_supervisor - INFO - num_batches:47
+2025-08-11 18:01:04,066 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 28871
+2025-08-11 18:03:06,952 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-08-11 18:03:06,952 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-08-11 18:03:14,649 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/20] (47) val_mae:6.3796, val_mis: 190.8509, val_width: 4.4681, val_mse: 120.2644, val_rmse: 10.9665 , 
+2025-08-11 18:03:30,482 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/20] (47) test_mae:5.7790,test_mis: 167.6927, test_width: 4.4713, test_mse: 95.1516, test_rmse: 9.7546 , 
+2025-08-11 18:03:30,513 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 0
+2025-08-11 18:03:30,529 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from inf to 6.3796, saving to models/epo0.tar
