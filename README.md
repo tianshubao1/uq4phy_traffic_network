@@ -1,6 +1,8 @@
 ## **ACM Transaction on CPS: Uncertainty Quantification for Physics-Informed Traffic Graph Networks with adversarial attack**
 Tianshu Bao, Dung T Nguyen, Xiaoou Liu, Meiyi Ma, Taylor T. Johnson, Hua Wei
 
+This paper does not include a docker image, and all baselines and related files are uploaded.
+
 ## **ICCPS 25: Uncertainty Quantification for Physics-Informed Traffic Graph Networks**
 Tianshu Bao, Xiaoou Liu, Meiyi Ma, Taylor T. Johnson, Hua Wei
 
